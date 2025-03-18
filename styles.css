@@ -1,0 +1,451 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    background-color: rgb(243, 242, 239);
+    height: auto;
+    font-family:Arial, Helvetica, sans-serif;
+    font-size: small;
+
+}
+
+h2 {
+    font-size: 2.5em;
+}
+
+
+header {
+    display: flex;
+    flex-direction: column;
+    background-image: url(images/carousel-1.jpg);
+    background-size: contain;
+    background-repeat: no-repeat;
+    height: 110vh;
+
+    
+}
+
+.liens {
+    display: flex;
+    justify-content: space-between;
+    border-bottom: rgb(194, 191, 191) solid 1px;
+    padding: 15px 50px;
+    gap: 20px;
+}
+
+a {
+    text-decoration: none;
+    color: rgb(97, 94, 94);
+    display: flex;
+    gap: 10px;
+    align-items: center;
+}
+
+nav {
+    display: flex;
+    justify-content: space-between;
+    padding: 20px 50px 0 50px;
+
+}
+
+
+.adresses, .reseaux{
+    display: flex;
+    gap: 20px;
+    color: rgb(97, 94, 94);
+
+}
+
+nav div {
+    display: flex;
+    gap: 20px;
+
+}
+
+nav p {
+    font-size: 2.5em;
+    font-weight: bold;
+    font-family:'Times New Roman', Times, serif;
+    color: #19b474;
+}
+
+.oo {
+    color: red;
+    
+}
+
+main {
+}
+
+.description {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 20px;
+    margin: 0 auto;
+    width: 70%;
+    padding-top: 80px;
+    padding-bottom: 80px;
+    justify-content: center;
+    
+}
+
+.imageGrand-père {
+    width: 400px;
+    height: 400px;
+}
+
+.titreDescription {
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 2em;
+}
+
+.blocDescription {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    gap: 30px;
+
+}
+
+ul {
+    list-style: none;
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+
+}
+
+.fa-check {
+    color: #19b474;
+}
+
+.bouton1 {
+    width: fit-content;
+    padding: 12px 30px;
+    margin-top:     20px;
+    min-height: 30px;
+    border: solid 1px ;
+    border-radius: 20px;
+    background-color: #21cc77;
+    color: white;
+
+}
+
+.bouton1:hover {
+    background-color: white;
+    border: solid 1px #21cc77;
+    color:#21cc77 ;
+}
+
+.fonctionnalités, .avis {
+    display: flex;
+    flex-direction: column;
+    background-image: url(images/bg-icon.png);
+    background-size: contain;
+    padding: 80px 0;
+    gap: 30px;
+    background-color: rgba(0, 0, 0, 0.034);
+}
+
+
+.texteFonctionnalités, .texteAvis {
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+    align-items: center;
+    margin: 0 auto;
+    width: 70%;
+    
+    
+}
+
+.ligneVerte {
+    border-bottom: solid 2px green;
+    width: 50px;
+}
+.ligneRouge {
+    border-top: solid 2px red;
+    width: 80px;
+
+}
+
+.texteFonctionnalités p {
+    text-align: center;
+        
+}
+
+.imageFonctionnalité {
+    display: flex;
+    justify-content: center;
+    gap: 20px;
+    margin: 0 auto;
+    width: 70%;
+    
+}
+
+
+.bouton2 {
+    width: fit-content;
+    padding: 12px 30px;
+    margin-top:     20px;
+    min-height: 30px;
+    border: solid 1px ;
+    border-radius: 20px;
+    background-color:white;
+    color:#19b474;
+}
+
+.vignette, .CarteAvis {
+    display: flex;
+    flex-direction:column;
+    align-items: center;
+    background-color: white;
+    gap: 10px;
+    padding: 40px;
+    
+    
+}
+
+.bouton2:hover {
+    background-color:#21cc77;
+    border: solid 1px white;
+    color:white;
+}
+.vignette p {
+    width: 250px;
+    text-align: center;
+}
+
+.bouton1, .bouton2, .bouton3, .bouton4, .bouton6{
+    cursor: pointer;
+}
+
+.produits {
+    padding: 80px 0 80px;
+    display: flex;
+    flex-direction: column;
+    gap: 30px;
+    width: 70%;
+    margin: 0 auto;
+}
+
+.blocProduits {
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+    gap: 600px;
+
+}
+
+.texteProduits {
+    display: flex;
+    flex-direction: column;
+    gap: 5px;
+}
+
+.filtreProduits {
+    display: flex;
+    align-items: end;
+    gap: 5px;
+}
+
+.bouton3 {
+    width: fit-content;
+    padding: 12px 10px;
+    min-height: 30px;
+    border: solid 2px #21cc77;
+    background-color: #21cc77;
+    color: white;
+}
+
+.bouton4 {
+    width: fit-content;
+    padding: 12px 10px;
+    min-height: 30px;
+    border: solid 2px #21cc54;
+    background-color:white;
+    color: black;
+}
+
+.bouton3:hover {
+    background-color: white;
+    border: solid 2px #21cc77;
+    color:#21cc77 ;
+}
+
+.bouton4:hover {
+    background-color:#21cc77;
+    border: solid 2px #21cc77;
+    color:white;
+}
+
+.listeProduits {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 15px;
+    box-sizing: border-box;
+    justify-content: center;
+}
+
+
+.vignetteProduit {
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+    background-color: white;
+}
+
+.photo1, .photo2, .photo3, .photo4, .photo5, .photo6, .photo7, .photo8 {
+    width: 250px;
+    height:250px;
+    background-size:cover;
+    background-repeat: no-repeat;
+    background-position:center;
+}
+
+.blocTextePrix {
+    margin: 0 auto;
+
+}
+
+.prix {
+    color: #19b474;
+}
+
+.prixBarré {
+    text-decoration: line-through ;
+}
+
+.blocPrix {
+    display: flex;
+    gap: 7px;
+
+    margin: 0 auto;
+}
+
+.plusProduits{
+    display: flex;
+    justify-content: center;
+    gap: 5px;
+    border-top: solid 2px #d8d4d4ad;
+}
+
+.plusProduits a {
+    padding-top: 10px;
+    padding-bottom: 10px;
+}
+
+.mur {
+    border-right: solid 2px #d8d4d4ad;
+
+
+}
+
+.texteNouveau {
+    background-color: orangered;
+    color: white;
+    margin-top: 20px;
+    margin-left: 20px;
+    padding: 5px 10px;
+    width: fit-content;
+
+}
+
+.fa-eye, .plusProduits .fa-basket-shopping{
+    color:#21cc77;
+}
+
+.bouton5 {
+    width: fit-content;
+    padding: 12px 30px;
+    min-height: 30px;
+    border: solid 1px ;
+    border-radius: 20px;
+    background-color: #21cc77;
+    color: white;
+    margin: 0 auto;
+
+}
+
+.bouton5:hover {
+    background-color: white;
+    border: solid 1px #21cc77;
+    color:#21cc77 ;
+}
+
+.visitezNotreEntreprise {
+    background-color: #21cc54;
+    color: white;
+    display: flex;
+    flex-direction: column;
+    padding: 70px 0;
+    
+}
+.conteneurVisitezNotreEntreprise {
+    width: 70%;
+    margin: 0 auto;
+    display: flex;
+    align-items:center;
+    justify-content: center;
+    gap: 380px;
+    
+}
+
+.texteVisitezNotreEntreprise {
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+
+}
+
+.bouton6 {
+    width: fit-content;
+    padding: 12px 30px;
+    min-height: 30px;
+    border: solid 1px orangered;
+    border-radius: 20px;
+    background-color: orangered;
+    color: white;
+
+}
+
+.bouton6:hover {
+    background-color: white;
+    border: solid 1px #21cc77;
+    color:#21cc77 ;
+}
+
+.blocCarteAvis {
+    display: flex;
+    justify-content: center;
+    gap: 20px;
+    margin: 0 auto;
+    width: 55%;
+    
+}
+
+.identitéAvis {
+    display: flex;
+    gap: 10px;
+    align-items: center;
+    
+
+
+}
+
+.identitéAvis img {
+    border-radius: 50px;
+    height: 50px;
+}
+
+.CarteAvis {
+    display: flex;
+    align-items: flex-start;
+
+}
+
+.fa-quote-left {
+    
+}
